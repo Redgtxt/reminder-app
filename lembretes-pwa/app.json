@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Lembretes PWA",
+    "slug": "lembretes-pwa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAFAFA"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lembretes.pwa"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FAFAFA"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.lembretes.pwa"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png",
+      "name": "Lembretes PWA",
+      "shortName": "Lembretes",
+      "lang": "pt-BR",
+      "scope": "/",
+      "themeColor": "#6366F1",
+      "backgroundColor": "#FAFAFA",
+      "display": "standalone",
+      "orientation": "portrait-primary",
+      "startUrl": "/",
+      "preferRelatedApplications": false
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

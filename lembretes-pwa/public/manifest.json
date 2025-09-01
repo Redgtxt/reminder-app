@@ -1,0 +1,76 @@
+{
+  "name": "Lembretes PWA - App de Lembretes Diários",
+  "short_name": "Lembretes",
+  "description": "Progressive Web App para criar e gerenciar lembretes diários com notificações e tracking de hábitos",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#6366F1",
+  "background_color": "#FAFAFA",
+  "scope": "/",
+  "lang": "pt-BR",
+  "categories": ["productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/adaptive-icon.png", 
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "adaptive"
+    },
+    {
+      "src": "/assets/favicon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/splash-icon.png",
+      "sizes": "2048x2732",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tela principal do app no mobile"
+    },
+    {
+      "src": "/assets/screenshot-desktop.png", 
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tela principal do app no desktop"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Criar Lembrete",
+      "short_name": "Novo",
+      "description": "Criar um novo lembrete rapidamente",
+      "url": "/?action=create",
+      "icons": [
+        {
+          "src": "/assets/icon.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "background-sync",
+    "offline"
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
